@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+.main {
+    width: 1200px;
+    min-height: 100vh;
+    max-width: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    background-color: #27A4F2;
+
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 48px;
+}
+
+/* Article */
+h1 {
+    line-height: 2rem;
+}
+
+article {
+    padding: 0 16px;
+    line-height: 1.6rem;
+}
+
+article img {
+    width: 640px;
+    max-width: 100%;
+    display: block;
+    margin: 32px auto;
+}
+
+
+.slogan {
+    margin: 0;
+    font-size: 11x;
+}
+
+.tieuluan {
+    /* background-color: #ede9df; */
+    font-size: 15px;
+}
+
+article {
+    /* padding: 0 100px 0 0; */
+    border: inset;
+}
+
+.img {
+    border: inset;
+    /* padding: 0 0 0 20px; */
+    padding: 15px;
+}
+
+.contentbig {
+    display: flex;
+}
+
+.detail {
+    font-size: 12px;
+}
+
+.linkbai {
+    list-style: none;
+}
+
+.i-amphtml-fill-content{
+    /* position: absolute; */
+    /* top: 10px;
+    left: 0;
+    bottom: 0;
+    right: 0; */
+    height: 250px;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 10px;
+    border-top: 5px solid #765ec9;
+    
+}
+
+.footer .middle {
+    height: 95px;
+    padding-top: 10px;
+    margin: auto;
+    width: 1174px;
+}
+
+.footer .item {
+    width: 200px;
+    margin-right: 50px;
+    float: left;
+}
+
+.footer .item .title {
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.footer .item ul {
+    line-height: 20px;
+    clear: left;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+.footer .item ul li a {
+    color: #717171;
+}
+
+a {
+    text-decoration: none;
+    color: #0080AF;
+}
+
+a {
+    background-color: inherit;
+    text-decoration: none;
+    color: #007fc2;
+}
+
+
+
+
+
+.fleft, .left {
+    float: left;
+}
+
+.chiase {
+    font-size: 11px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.marginbot10 {
+    margin-bottom: 10px!important;
+}
+
+
+.cblue {
+    color: #0080AF;
+}
+
+.fred, .cred {
+    color: red!important;
+}
+
+img {
+    border: 0;
+}
+
+element.style {
+    font-weight: normal;
+    float: left;
+    margin-left: 5px;
+    font-size: 11px;
+    border: 1px solid #ececec;
+    padding: 3px 5px;
+}
+
+element.style {
+    float: left;
+    margin-right: 5px;
+}
+
+
+.wrap {
+    display: flex;
+}
